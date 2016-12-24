@@ -1,0 +1,91 @@
+PODS:
+  - Alamofire (2.0.2)
+  - Bolts (1.6.0):
+    - Bolts/AppLinks (= 1.6.0)
+    - Bolts/Tasks (= 1.6.0)
+  - Bolts/AppLinks (1.6.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.6.0)
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - CocoaLumberjack/Swift (2.2.0):
+    - CocoaLumberjack/Extensions
+  - DZNEmptyDataSet (1.7.3)
+  - Eureka (1.4.1)
+  - FBSDKCoreKit (4.10.0):
+    - Bolts (~> 1.5)
+  - FBSDKLoginKit (4.10.0):
+    - FBSDKCoreKit
+  - Filer (0.1.2)
+  - GoogleMaps (1.12.3)
+  - HCSStarRatingView (1.4.3)
+  - INTULocationManager (4.1.1)
+  - KeyboardWrapper (1.0.2)
+  - RDRGrowingTextView (0.1.0)
+  - SDCAlertView (4.0.1)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SwiftyJSON (2.3.2)
+  - SwiftyUserDefaults (2.1.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 2.0)
+  - CocoaLumberjack
+  - CocoaLumberjack/Swift
+  - DZNEmptyDataSet
+  - Eureka
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - Filer (from `https://github.com/yoavlt/Filer.git`, branch `swift-2.0`)
+  - GoogleMaps
+  - HCSStarRatingView
+  - INTULocationManager
+  - KeyboardWrapper
+  - RDRGrowingTextView (from `https://github.com/datwelk/RDRGrowingTextView.git`)
+  - SDCAlertView
+  - SDWebImage
+  - SwiftyJSON
+  - SwiftyUserDefaults
+
+EXTERNAL SOURCES:
+  Filer:
+    :branch: swift-2.0
+    :git: https://github.com/yoavlt/Filer.git
+  RDRGrowingTextView:
+    :git: https://github.com/datwelk/RDRGrowingTextView.git
+
+CHECKOUT OPTIONS:
+  Filer:
+    :commit: e7cbbc491000fa4063b59d974ecf315b35aadef3
+    :git: https://github.com/yoavlt/Filer.git
+  RDRGrowingTextView:
+    :commit: 46d41b7d30f7bb09c69b6c74af371444142193fa
+    :git: https://github.com/datwelk/RDRGrowingTextView.git
+
+SPEC CHECKSUMS:
+  Alamofire: 8edbab00802a752bb5240cc2abe70e7e881488ad
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  DZNEmptyDataSet: dd7cca17c1d07dfa78956859b1e70a52505678ef
+  Eureka: 2f1921d3162491921d2fef3b516bc4ef93a05122
+  FBSDKCoreKit: 13bec8373fb3af94d44daf2aa1e0958687897fbd
+  FBSDKLoginKit: d3d4a2e9d31954deb00bfea964167a05ca1ea976
+  Filer: d0120c2bc6c13227c9a2d913ee7268c31a937496
+  GoogleMaps: a4ac67918d0b5ba5f6b9893ac80487e357779e6c
+  HCSStarRatingView: bada6ae98258c3019531e0218030e2d5ad10765a
+  INTULocationManager: 83c7373048d583cda57e25eefb9bb8a3675acf16
+  KeyboardWrapper: 573fab5cb8cf9a0ba6f350d12b8c8e4c5ced8196
+  RDRGrowingTextView: 792f0307f0f9309953e51b3373211fd35032698a
+  SDCAlertView: 046bcf893b3585ffa2ecaba536dc3de334959d72
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  SwiftyUserDefaults: bd394a09247e3f00e17e402aa535c047c5d12b07
+
+COCOAPODS: 0.39.0
